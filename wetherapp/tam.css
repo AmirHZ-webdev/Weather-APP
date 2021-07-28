@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gold;
+    font-family: poppins;
+}
+.container{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+.text{
+    
+    display: block;
+    margin: 50px auto auto ;
+    width: 300px;
+    height: 30px;
+    color: darkblue;
+    background-color: rgba(0, 0, 0,0);
+    border: none;
+    outline: none;
+    font-size: 30px;
+    border-bottom: 1px solid darkblue;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+::placeholder{
+    color: darkblue;
+}
+.submit{
+    width: 300px;
+    height: 30px;
+    margin: 10px auto;
+    background-color: crimson;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;    
+    display: block;
+}
+.info ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 0 auto;
+    max-width: 80%;
+    
+
+}
+h1{
+    text-align: center;
+    color: darkblue;
+    font-size: 45px;
+
+}
+.liststyle{
+   
+    list-style: none;
+    border-radius: 10px;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 15px;
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    box-shadow:5px 5px rgba(0, 0, 0, 0.1);
+}
+.msg{
+ 
+    color: darkblue;
+    font-size: 20px;
+}
